@@ -1,0 +1,331 @@
+- Siege of Minas Tirith - Age of Empires 2 Custom Scenario Map
+	- To Do
+		- Remove archer bonus vs pikemen
+		- Double check Projectile Smart Mode (for p1 crossbows and p5 heavy crossbows)
+	- **Army of Gondor**
+		- Buildings cost 40% more resources
+		- Can build palisade walls for 10 wood
+		- **Quests**
+			- Rally the Citadel Guards
+				- Condition: Imperial Age
+				- Condition: Beregond in combat for 2 minutes cumulatively OR Beregond has died
+				- Effect: Changes ownership of the White Tower from Gaia to Army of Gondor
+				- Condition: Beregond visits the White Tower OR Beregond has died
+				- Effect: Allows creation of Citadel Guards
+				- Effect: Beregond receives +100 HP, +1/1 armor, +1 attack
+				- Effect: Gondor Soldiers receive +5 HP
+		- **Heroes**
+			- Beregond
+				- 200 HP (20 regen), 2/5 armor (2 cavalry), 6 shield (7s regen)
+				- 5 attack, 0.5/50% splash, 0.3 range, 2.0 aspeed, 100% accuracy
+				- Buff: Rally the Citadel Guards
+					- +50 HP, +1/1 armor, +1 attack
+			- Faramir
+		- **Barracks**
+			- Urban Militia
+				- Long Swordsman, Barracks
+				- 50 food, 20 gold
+				- 25 HP, 1/4 armor, 0.9 speed
+				- 4 attack, 2.0 aspeed, 50% accuracy
+				- Unlock: Research Man-At-Arms
+			- Pikeman
+				- Barracks
+				- 40 food, 30 wood
+				- 25 HP, 1/3 armor
+				- 3 attack (+6 vs cavalry), 0.5 range, 3.0 aspeed, 50% accuracy
+				- Unlock: Research Pikeman
+			- Orc Mob
+				- Heavy Pikeman, Barracks
+				- 30 food, 20 wood
+				- 25 HP, 0/2 armor, 1.2 speed
+				- 3 attack (+6 vs cavalry), 0.3 range, 2.7 aspeed, 45% accuracy
+				- Unlock: Research Pikeman
+		- **Archery Range**
+			- Crossbowman
+				- Archery Range
+				- 25 wood, 60 gold
+				- 15 HP, 0/5 armor, 0.8 speed
+				- 8 attack, 19/3 range, 7.0 aspeed, 0.25 dispersion, 1 arc
+				- Unlock: Research Crossbowman
+		- **Stables**
+			- Ithilien Outrider
+				- Light Cavalry, Stables
+				- 80 food
+				- 25 HP, 0/2 armor, 2 shield (10s regen)
+				- 4 attack, 2.0 aspeed, 50% accuracy
+				- Unlock: Research Light Cavalry
+			- Anorien Knight
+				- Knight, Stables
+				- 50 food, 70 gold
+				- 35 HP, 2/5 armor, 2 shield (10s regen), 1.35 speed
+				- 5 attack, 2.0 aspeed, 50% accuracy
+				- Unlock: Research Cavalier
+		- **Krepost**
+			- Gondor Soldier
+				- Teutonic Knight, Krepost
+				- 60 food, 25 gold
+				- 30 HP, 2/4 armor, 0.8 speed
+				- 4 attack, 2.0 aspeed, 50% accuracy
+				- Unlock: Research Elite Teutonic Knight
+		- **White Tower**
+			- Citadel Guard
+				- Huskarl, White Tower
+				- 60 food, 50 gold, 30s
+				- 40 HP (10 regen), 2/5 armor, 1 shield (10s regen), 1.2 speed
+				- 5 attack, 0.4/30% splash, 2.0 aspeed, 60% accuracy
+				- Unlock: Rally the Citadel Guards quest
+		- **Citadel Barracks**
+			- Citadel Archer
+				- Elite Longbowman, Citadel Barracks
+				- 25 wood, 60 gold
+				- 20 HP, 0/6 armor, 0.8 speed
+				- 10 attack, 22/3 range, 6.0 aspeed, 0.15 dispersion, 1 arc
+				- Unlock: Research Elite Longbowman
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+	- **Gondor Fiefdoms**
+		- Buildings cost 20% more resources and have 80% HP
+		- Can build fortified palisade walls for 10 wood
+		- **Barracks**
+			- Lamedon Levy
+				- Man-at-Arms, Barracks
+				- 35 food, 10 gold
+				- 25 HP, 0/4 armor, 0.9 speed
+				- 4 attack, 2.0 aspeed, 50% accuracy
+				- Takes 0.9 pop
+				- Unlock: Research Man-at-Arms
+			- Anfalas Levy
+				- Spearman, Barracks
+				- 25 food, 20 wood
+				- 20 HP, 0/3 armor, 0.9 speed
+				- 2 attack (+6 vs cavalry), 0.5 range, 3.0 aspeed, 50% accuracy
+				- Takes 0.9 pop
+				- Unlock: Research Pikeman
+		- **Henneth Annun**
+			- Ithilien Ranger
+				- Elite Composite Bowman, Henneth Annun
+				- 45 wood, 60 gold
+				- 20 HP (2 regen), 1/6 armor, 2 shield (10s regen)
+				- 10 attack, 19/1 range, 5.0 aspeed, 0.15 dispersion, 1/3 arc, LoS 14
+				- Unlock: Faramir to Henneth Annun
+	-
+	- Morthond Bowman
+		- Longbowman, Archery Range
+		- 40 wood, 50 gold
+		- 20 HP, 0/4 armor, 0.8 speed
+		- 9 attack, 18 range, 6.5 aspeed
+		- Unlock: Research Elite Longbowman
+	-
+	- Highland Skirmisher
+		- Elite Skirmisher, Archery Range
+		- 50 wood, 35 gold
+		- 20 HP, 1/5 armor, 0.95 speed
+		- 11 attack, 10 range, 6.0 aspeed
+		- Unlock: Research Elite Skirmisher
+	-
+	-
+	- Lossarnach Soldier
+	- Norse Warrior
+	- 60 food, 30 gold
+	- 30 HP, 1/4 armor, 1.0 speed
+	- 4 attack (+4 vs infantry), 1.6 aspeed, 50% accuracy
+	- Unlock: Research Elite Berserker
+	-
+	- Dol Amroth Soldier
+	- Champion Hero
+	- 60 food, 40 gold
+	- 40 HP, 2/5 armor, 0.9 speed
+	- 5 attack, 0.5/50% splash, 2.0 aspeed, 60% accuracy
+	- Unlock: Research Elite Teutonic Knight
+	-
+	-
+	-
+	- Swan Knight
+		- Paladin, Poenari Castle
+		- Gondor’s finest heavy cavalry
+		- 60 food, 75 gold
+		- 60 HP, 2/5 armor (+2 cavalry), 3 shield (7.5s regen)
+		- 6 attack, 2.0 speed, 60% accuracy
+		- Unlock: Research Paladin
+	-
+	- **Host of Minas Morgul**
+		- **Quests**
+			- Collect Relics
+				- Condition: Collect relics and desecrate them by bringing them to the monastery in Osgiliath
+				- Effect: Each garrisoned relic increases Morgul Wraith HP by 5 and decreases their training time by 10 seconds
+				- Relics can be ungarrisoned without losing the Morgul Wraith bonuses
+				- Condition: Drop off all three relics at once at the gate of Minas Tirith
+				- Effect: Gives Morgul Wraiths splash damage (0.5/50%) and doubles their regeneration rate
+		- **Barracks**
+			- Orc Raider
+				- Elite Woad Raider, Barracks
+				- 35 food, 15 gold
+				- 30 HP, 0/2 armor, 1.2 speed
+				- 4 attack, 1.8 aspeed, 45% accuracy
+				- Unlock: Research Elite Woad Raider
+			- Orc Mob
+				- Heavy Pikeman, Barracks
+				- 30 food, 20 wood
+				- 25 HP, 0/2 armor, 1.2 speed
+				- 3 attack (+6 vs cavalry), 0.3 range, 2.7 aspeed, 45% accuracy
+				- Unlock: Research Pikeman
+		- **Archery Range**
+			- Snaga Archer
+				- Archer, Archery Range
+				- 25 food, 40 gold
+				- 12 HP, 0/4 armor, 1.2 speed
+				- 8 attack, 15/2 range, 6.0 aspeed, 0.3 dispersion, 1 arc
+				- Unlock: Research Crossbowman
+		- **Stables**
+			- Warg Rider
+				- Heavy Camel Rider
+				- 50 food, 50 gold
+				- 35 HP, 1/3 armor, 2 shield (10s regen)
+				- 4 attack (+4 vs cavalry), 2.0 aspeed, 50% accuracy
+				- Unlock: Research Heavy Camel Rider
+			- Exalted Warg Rider
+				- Imperial Camel Rider
+				- 50 food, 50 gold
+				- 40 HP, 2/4 armor, 2 shield (10s regen)
+				- 5 attack (+4 vs cavalry), 2.0 aspeed, 50% accuracy
+				- Unlock: Kill Faramir and then research Imperial Camel Rider
+		- **Krepost**
+			- Orc Brute
+				- Elite Throwing Axeman, Krepost
+				- 55 food, 25 gold
+				- 25 HP, 0/4 armor
+				- 4 attack, 7/0 range, 4.0 aspeed, 0.3 dispersion
+				- Unlock: Research Elite Throwing Axeman
+		- **Castle**
+			- Black Uruk
+				- Gajah Mada, Castle
+				- 80 food, 40 gold
+				- 70 HP, 1/4 armor
+				- 6 attack, 0.5/50% splash, 2.0 aspeed, 50% accuracy
+				- Unlock: Research Champion
+		- **Monastery**
+			- Morgul Wraith
+				- Elite Teutonic Knight, Monastery
+				- 200 gold, 80s
+				- 30 HP (5 regen), 4/6 armor, 15 shield (10s regen)
+				- 7 attack, 1.4 aspeed, 70% accuracy
+				- Unlock: ///
+		- **Dome of Stars**
+			- Olog-hai
+				- Suryavarman I, Poenari Castle
+				- 200 food, 100 gold
+				- 120 HP, 2/6 armor
+				- 7 attack, 0.7/50% splash, 0.3 range, 2.0 aspeed, 50% accuracy
+			- Witch King of Angmar
+				- Max 1
+				- 3000 gold
+				- 600 HP (20 regen), 3/6 armor (3 cavalry), 10 shield (5s regen)
+				- 7 attack, 1/50% splash, 0.3 range, 2.0 aspeed, 100% accuracy
+	- **Host of the Black Gate**
+		- **Barracks**
+			- Orc Chopper
+				- Halberdier, Barracks
+				- 45 food, 40 wood
+				- 30 HP, 1/3 armor
+				- 4 attack (+6 vs cavalry), 0.3 range, 3.0 aspeed, 50% accuracy
+				- Unlock: Research Halberdier
+			- Dagorlad Stalker
+				- Elite Eagle Warrior, Barracks
+				- 25 food, 50 gold
+				- 25 HP, 0/4 armor, 2 shield (5s regen)
+				- 4 attack (+1 vs archers), 2.0 aspeed, 60% accuracy
+				- Unlock: Research Elite Eagle Warrior
+		- **Archery Range**
+			- Uruk Heavy Crossbow
+				- Heavy Crossbowman
+				- 45 wood, 60 gold
+				- 15 HP, 1/7 armor, 0.8 speed
+				- 8 attack, 16/2 range, 7.0 aspeed, 0.25 dispersion, 1 arc
+				- Unlock: Research Crossbowman
+		- **Castle**
+			- Uruk Repeating Crossbow
+				- Elite Chu Ko Nu
+				- 45 wood, 60 gold
+				- 20 HP, 0/5 armor, 0.8 speed
+				- 6 attack, 16/2 range, 6.0 aspeed, 0.35 dispersion, 1 arc
+				- Unlock: ///
+		- **Krepost**
+			- Morannon Guard
+				- 50 food, 25 gold
+				- 30 HP, 1/5 armor, 0.95 speed
+				- 4 attack, 1 range, 2.0 aspeed, 60% accuracy
+				- Unlock: Research Elite Teutonic Knight
+		- **Siege Workshop**
+			- Volley Gun
+				- Elite Organ Gun, Siege Workshop
+				- 200 wood, 200 gold
+				- 40 HP, 0/7 armor, 0.7 speed
+				- 8 attack (10 projectiles), 17/3 range, 8.0 aspeed, 0.35 dispersion, 0 arc
+				- 3 pop space
+				- Unlock: Research Elite Organ Gun
+	- **Evil Men**
+		- **Quests**
+			- Occupy Harlond
+		- **Barracks**
+			- Haradrim Conscript
+				- Spearman, Barracks
+				- 35 food, 25 wood
+				- 20 HP, 0/3 armor
+				- 3 attack (+6 vs cavalry), 0.5 range, 3.0 aspeed, 50% accuracy
+				- Unlock: Research Pikeman
+		- **Archery Range**
+			- Nomad Archer
+				- Heavy Cavalry Archer
+				- 40 wood, 60 gold
+				- 20 HP, 0/3 armor
+				- 8 attack, 15/1 range, 7.0 aspeed, 0.25 dispersion, 1 arc
+				- Unlock: Research Heavy Cavalry Archer
+		- **Stables**
+			- Nomad Scout
+				- Hussar, Stables
+				- 80 food
+				- 25 HP, 0/3 armor, 2 shield (10s regen)
+				- 4 attack, 2.0 speed, 50% accuracy
+				- Line of sight: 12
+				- Unlock: Research Hussar
+			- Haradrim Knight
+				- Cavalier, Stables
+				- 45 food, 55 gold
+				- 30 HP, 2/4 armor, 2 shield (10s regen)
+				- 4 attack, 1.8 aspeed, 50% accuracy
+				- Unlock: Research Cavalier
+		- **Castle**
+			- Nomad Lancer
+				- 40 food, 60 gold
+				- 25 HP, 1/5 armor
+				- 3 attack, +7 charge (30s regen), 3.0 aspeed, 100% accuracy
+		- **Nomad Camp**
+			- Nomad Raider
+				- Elite Kipchak
+				- 40 wood, 70 gold
+				- 20 HP, 0/4 armor, 1 shield (10s regen)
+				- 9 attack, 13/1 range, 7.0 aspeed, 0.3 dispersion, 1 arc
+				- Unlock: Research Elite Kipchak
+		- **Krepost**
+			- Royal Guard
+				- 50 food, 35 gold
+				- Unlock: Research Elite Immortal
+				- 30 HP
+				- Elite Immortal (Melee)
+					- 1/6 armor
+					- 4 attack (+3 vs cavalry), 0.3 range, 1.8 aspeed, 60% accuracy
+				- Elite Immortal (Ranged)
+					- 1/5 armor
+					- 9 attack, 16/3 range, 7.0 aspeed, 0.25 dispersion, 1 arc
+		- **Poenari Castle**
+			- Mumakil
+				- Elite War Elephant
+				- 250 food, 75 gold
+				- 160 HP, 0/3 armor
+				- 7 attack, 0.7/50% splash, 0.3 range, 2.0 aspeed, 50% accuracy
